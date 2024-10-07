@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "seo.dongu.heic_to_jpg"
     compileSdkVersion 34
 
     sourceSets {
